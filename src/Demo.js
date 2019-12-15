@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 
 import WithMoveValidation from "./integrations/WithMoveValidation";
+import RandomVsRandomGame from "./integrations/RandomVsRandomGame";
 
 class Demo extends Component {
     render() {
@@ -8,6 +9,7 @@ class Demo extends Component {
         <div>
             <div style={boardsContainer}>
             <WithMoveValidation />
+            <RandomVsRandomGame />
             </div>
         </div>
         );
